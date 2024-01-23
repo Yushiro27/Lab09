@@ -19,7 +19,10 @@ public class GameManager : MonoBehaviour
     void Update()
     {
         if (Time.timeScale == 0 && Input.GetKeyDown(KeyCode.Return))
+        {
             StartGame();
+        }
+
     }
 
     public void UpdateScore(int value)
